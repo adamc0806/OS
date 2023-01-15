@@ -1,0 +1,6 @@
+src/isodir
+src/myos.iso
+src/myos.bin
+src/kernel.o
+src/boot.o
+src/Makefile
