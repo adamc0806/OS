@@ -113,7 +113,8 @@ void kernel_main(void)
 	/* Initialize terminal interface */
 	terminal_initialize();
  
-	/* Newline support is left as an exercise. */
+	/* Newline support implemented, weird o looking character still present.
+	Could check for character and remove colouring.*/
 	terminal_writestring("TETRIS\n");
-    terminal_writestring("TIME\n");
+    	terminal_writestring("TIME\n");
 }
